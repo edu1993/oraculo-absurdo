@@ -1,0 +1,324 @@
+/* ========================================
+   ORÁCULO DE DECISIONES ABSURDAS - STYLES
+   ======================================== */
+
+/* Patrón hexagonal con CSS puro */
+.hex-pattern {
+    background-color: #0a0a0f;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23171724' fill-opacity='0.4'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Efecto glow neón - Cyan */
+.neon-glow {
+    box-shadow: 0 0 20px rgba(0, 245, 255, 0.5), 0 0 40px rgba(0, 245, 255, 0.3);
+}
+
+/* Efecto glow neón - Pink */
+.neon-glow-pink {
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5), 0 0 40px rgba(255, 0, 255, 0.3);
+}
+
+/* Efecto glow neón - Purple */
+.neon-glow-purple {
+    box-shadow: 0 0 20px rgba(191, 0, 255, 0.5), 0 0 40px rgba(191, 0, 255, 0.3);
+}
+
+/* Animación de resultado */
+@keyframes result-pop {
+    0% { 
+        transform: scale(0) rotate(-180deg); 
+        opacity: 0; 
+    }
+    50% { 
+        transform: scale(1.2) rotate(10deg); 
+    }
+    100% { 
+        transform: scale(1) rotate(0deg); 
+        opacity: 1; 
+    }
+}
+
+.result-appear {
+    animation: result-pop 0.6s ease-out forwards;
+}
+
+/* Animación float */
+@keyframes float {
+    0%, 100% { 
+        transform: translateY(0); 
+    }
+    50% { 
+        transform: translateY(-10px); 
+    }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Animación pulse lento */
+@keyframes pulse-slow {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Estilos de scrollbar para webkit */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* ========================================
+   EFECTOS ARGENTINOS ESPECIALES
+   ======================================== */
+
+/* Bombos y efecto hinchada */
+@keyframes bombos {
+    0%, 100% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.1) rotate(-5deg); }
+    50% { transform: scale(1) rotate(0deg); }
+    75% { transform: scale(1.1) rotate(5deg); }
+}
+
+.efecto-hinchada {
+    animation: bombos 0.5s ease-in-out;
+}
+
+/* Mate calentito - efecto vapor */
+@keyframes vapor {
+    0% { 
+        opacity: 0;
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        opacity: 0.6;
+        transform: translateY(-20px) scale(1.5);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-40px) scale(2);
+    }
+}
+
+.mate-vapor::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, transparent 70%);
+    border-radius: 50%;
+    animation: vapor 2s ease-out infinite;
+}
+
+/* Tango - movimiento seductor */
+@keyframes tango-sway {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(-10px) rotate(-3deg); }
+    75% { transform: translateX(10px) rotate(3deg); }
+}
+
+.efecto-tango:hover {
+    animation: tango-sway 1s ease-in-out;
+}
+
+/* Efecto inflación - números creciendo */
+@keyframes inflacion {
+    0% { 
+        transform: scale(1);
+        color: #00f5ff;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #ff00ff;
+    }
+    100% {
+        transform: scale(1);
+        color: #00f5ff;
+    }
+}
+
+.efecto-inflacion {
+    animation: inflacion 2s ease-in-out infinite;
+}
+
+/* Estrellas celestes y blancas - colores Argentina */
+@keyframes bandera-wave {
+    0%, 100% { 
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.bandera-argentina {
+    background: linear-gradient(90deg, 
+        #6CB4EE 0%, 
+        #6CB4EE 33%, 
+        #FFFFFF 33%, 
+        #FFFFFF 66%, 
+        #6CB4EE 66%, 
+        #6CB4EE 100%);
+    background-size: 200% 100%;
+    animation: bandera-wave 3s ease infinite;
+}
+
+/* Efecto asado - chispas */
+@keyframes chispas {
+    0%, 100% { 
+        opacity: 0;
+        transform: translateY(0) scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-30px) scale(1);
+    }
+}
+
+.chispa {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #ff6600;
+    border-radius: 50%;
+    animation: chispas 1s ease-out infinite;
+}
+
+/* Efecto subte - vibración */
+@keyframes subte-vibrar {
+    0%, 100% { transform: translateX(0); }
+    10% { transform: translateX(-2px); }
+    20% { transform: translateX(2px); }
+    30% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    50% { transform: translateX(0); }
+}
+
+.efecto-subte:hover {
+    animation: subte-vibrar 0.5s ease-in-out;
+}
+
+/* Efecto dolar blue - fluctuación */
+@keyframes dolar-fluctua {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-10px); }
+}
+
+.efecto-dolar {
+    animation: dolar-fluctua 1s ease-in-out infinite;
+}
+
+/* Efecto perro callejero - movimiento de cola */
+@keyframes cola {
+    0%, 100% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+}
+
+.efecto-cola {
+    animation: cola 0.3s ease-in-out infinite;
+    transform-origin: bottom center;
+}
+
+/* Flash de fotógrafo - efecto paparazzi */
+@keyframes flash {
+    0%, 100% { opacity: 0; }
+    10% { opacity: 1; }
+    20% { opacity: 0; }
+}
+
+.efecto-paparazzi::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    opacity: 0;
+    pointer-events: none;
+    animation: flash 0.5s ease-out;
+}
+
+/* Efecto fernet - burbujas subiendo */
+@keyframes burbujas {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(-50px) scale(0.5);
+        opacity: 0;
+    }
+}
+
+.burbuja {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgba(139, 69, 19, 0.6);
+    border-radius: 50%;
+    animation: burbujas 1.5s ease-out infinite;
+}
+
+/* Efecto cuarentena - reloj lento */
+@keyframes cuarentena {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.reloj-cuarentena {
+    animation: cuarentena 60s linear infinite;
+}
+
+/* Efecto piquete - barrera */
+@keyframes barrera {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+}
+
+.efecto-piquete {
+    animation: barrera 2s ease-in-out infinite;
+    background: repeating-linear-gradient(
+        45deg,
+        #ff0000,
+        #ff0000 10px,
+        #ffffff 10px,
+        #ffffff 20px
+    );
+}
+
+/* Efecto parcial - parpadeo luminoso */
+@keyframes parcial {
+    0%, 100% { 
+        box-shadow: 0 0 5px rgba(0, 245, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 245, 255, 1), 0 0 40px rgba(255, 0, 255, 0.8);
+    }
+}
+
+.efecto-parcial {
+    animation: parcial 2s ease-in-out infinite;
+}

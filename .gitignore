@@ -1,0 +1,32 @@
+# Archivos y carpetas a ignorar
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (por si se usa server.py localmente)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependencias (por si se agregan en el futuro)
+node_modules/
+
+# Build/dist (por si se agrega build step)
+dist/
+build/
+
+# Archivos temporales
+*.tmp
+.cache/

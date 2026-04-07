@@ -1,0 +1,656 @@
+{
+  "categorias": [
+    {
+      "id": "comida",
+      "titulo": "🍕 Crisis Alimentarias",
+      "color": "neon-cyan",
+      "decisiones": [
+        {
+          "id": "pizza",
+          "titulo": "¿Pizza con o sin piña?",
+          "descripcion": "El debate que divide familias y arruina amistades",
+          "opciones": [
+            "¡Con piña! Que se jodan tus amigos italianos 🍍",
+            "Sin piña, que sos un purista con complejo de superioridad 🍕"
+          ]
+        },
+        {
+          "id": "brunch",
+          "titulo": "¿Desayuno o almuerzo?",
+          "descripcion": "Son las 11:30 AM y tu estómago te odia",
+          "opciones": [
+            "¡BRUNCH! Vos y tus aires de cheto porteño 🥞",
+            "Almuerzo directo, que el laburo no se paga solo 🍔"
+          ]
+        },
+        {
+          "id": "cocina",
+          "titulo": "¿Pedir delivery o cocinar?",
+          "descripcion": "Tu nevera tiene huevos vencidos y esperanza",
+          "opciones": [
+            "Delivery y que la plata se vaya en impuestos como Dios manda 🛵",
+            "Cocinar... y terminar pidiendo igual a las 11pm llorando 🍳"
+          ]
+        },
+        {
+          "id": "mate",
+          "titulo": "¿Mate dulce o amargo?",
+          "descripcion": "El verdadero test de si sos argentino o extranjero",
+          "opciones": [
+            "Dulce como vos, que sos un almibarado sin cura 🍯",
+            "Amargo como la vida, como tu ex, como todo 💔"
+          ]
+        },
+        {
+          "id": "asado",
+          "titulo": "¿Asado en lo de quién?",
+          "descripcion": "Domingo de parrilla y decisiones trágicas",
+          "opciones": [
+            "En lo del tío que cocina bien... y te hace lavar los platos 👨‍🍳",
+            "En lo del amigo con pileta... que vive en el conurbano profundo 🏊"
+          ]
+        },
+        {
+          "id": "facturas",
+          "titulo": "¿Factura de qué?",
+          "descripcion": "El dilema existencial de domingo a la mañana",
+          "opciones": [
+            "Medialuna de grasa, que te hace mal pero feliz 🥐",
+            "Bolita de fraile, sos un romántico incorregible 👑"
+          ]
+        },
+        {
+          "id": "milanesa",
+          "titulo": "¿Milanesa con qué?",
+          "descripcion": "El acompañamiento define tu alma y tu futuro",
+          "opciones": [
+            "Papas fritas, clásico de la abuela que te juzga en silencio 🍟",
+            "Puré de papa, abuelo style hasta la médula de tu ser 🥔"
+          ]
+        },
+        {
+          "id": "empanadas",
+          "titulo": "¿Empanada de qué?",
+          "descripcion": "La pregunta que abre cualquier reunión familiar",
+          "opciones": [
+            "Carne cortada a cuchillo, vos sí que sabés de la vida 🔪",
+            "Jamón y queso, básico, predecible, vos 🧀"
+          ]
+        },
+        {
+          "id": "alfajor",
+          "titulo": "¿Alfajor de dónde?",
+          "descripcion": "El mejor del mundo mundial y de la galaxia",
+          "opciones": [
+            "Mar del Plata, playita y alfajor, qué más querés en la vida 🏖️",
+            "Córdoba, que son unos capos pero lo saben demasiado 🏔️"
+          ]
+        },
+        {
+          "id": "tuco",
+          "titulo": "¿Tuco o fileto?",
+          "descripcion": "La eterna discusión que divide familias enteras",
+          "opciones": [
+            "Tuco con carne picada, que sos un gourmet de barrio obrero 🥩",
+            "Fileto con manteca noma, simple pero honesto como vos 🧈"
+          ]
+        },
+        {
+          "id": "chori",
+          "titulo": "¿Chori en pan o en baguette?",
+          "descripcion": "La decadencia porteña en su máxima expresión",
+          "opciones": [
+            "Pan clásico de cancha, que no te conozcan en el barrio 🌭",
+            "Baguette, ya te olvidaste de tus raíces pedazo de cheto 🥖"
+          ]
+        },
+        {
+          "id": "sushi",
+          "titulo": "¿Sushi o milanesa?",
+          "descripcion": "Tenes hambre pero sos \"cool\" y eso es un problema",
+          "opciones": [
+            "Sushi, que sos un porteño de Palermo que se cree europeo 🍣",
+            "Milanesa, que sos un gaucho del conurbano con los pies en la tierra 🥩"
+          ]
+        },
+        {
+          "id": "fugazzeta",
+          "titulo": "¿Fugazzeta con o sin jamón?",
+          "descripcion": "La verdadera pizza argentina, no aceptes imitaciones",
+          "opciones": [
+            "Con jamón, que la vida ya es suficientemente cruel 🥓",
+            "Sin jamón, purista de la fugazzeta reina de Buenos Aires 🧅"
+          ]
+        },
+        {
+          "id": "gaseosa",
+          "titulo": "¿Coca o Pepsi en el almuerzo?",
+          "descripcion": "La elección que define tu lealtad",
+          "opciones": [
+            "Coca, porque sos un tradicionalista de la buena 🥤",
+            "Pepsi, rebelde sin causa, iconoclasta del sabor 🥤"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "titulo": "🛌 Dilemas Existenciales",
+      "color": "neon-pink",
+      "decisiones": [
+        {
+          "id": "vestimenta",
+          "titulo": "¿Vestirme o pijama todo el día?",
+          "descripcion": "Trabajo remoto y la decadencia humana",
+          "opciones": [
+            "Pijama profesional, que el Zoom no ve abajo de la cintura 👔",
+            "Pantalón real, para sentirte persona aunque sea mentira 👖"
+          ]
+        },
+        {
+          "id": "ducha",
+          "titulo": "¿Ducharme o 5 min más de cama?",
+          "descripcion": "La batalla épica de cada mañana argentina",
+          "opciones": [
+            "Agua caliente, que sos un obseso con la higiene olfateada 🚿",
+            "5 min más, prometo... y son 45 y llegaste tarde ⏰"
+          ]
+        },
+        {
+          "id": "mensaje",
+          "titulo": "¿Responder ahora o ignorar?",
+          "descripcion": "El mensaje de tu ex, tu jefe o tu madre",
+          "opciones": [
+            "Responder con responsabilidad, qué raro vos siendo adulto 💼",
+            "Modo avión activado, que se joda el mundo y sus problemas ✈️"
+          ]
+        },
+        {
+          "id": "bondi",
+          "titulo": "¿Esperar el bondi o caminar?",
+          "descripcion": "El dilema del porteño apurado y sudado",
+          "opciones": [
+            "Espero que viene... (viene en 45 minutos si tenés suerte) 🚌",
+            "Caminar y sudar, que sos un masoquista del verano porteño 🚶‍♂️💦"
+          ]
+        },
+        {
+          "id": "subte",
+          "titulo": "¿Subte a full o esperar el próximo?",
+          "descripcion": "Linea B hora pico, el infierno en vida",
+          "opciones": [
+            "Entro como sardina en lata, que tengo alma de condenado austral 🥫",
+            "Espero el próximo, que viene igual repleto de otras almas 🚇"
+          ]
+        },
+        {
+          "id": "dolares",
+          "titulo": "¿Comprar dólares o no?",
+          "descripcion": "La pregunta nacional que quema el alma",
+          "opciones": [
+            "Sí, que la economía es un desastre y vos lo sabés muy bien 💵",
+            "No, confío en el peso... (risas grabadas en el fondo) 🇦🇷"
+          ]
+        },
+        {
+          "id": "obra",
+          "titulo": "¿Ir a la obra de teatro del amigo?",
+          "descripcion": "Tu amigo hace stand up y te invitó con cara de perrito",
+          "opciones": [
+            "Voy y río aunque sea malo, que soy buen compañero y sufridor 😅",
+            "Digo que tengo fiebre, mentira piadosa nivel experto 🌡️"
+          ]
+        },
+        {
+          "id": "piquete",
+          "titulo": "¿Hay piquete o no hay piquete?",
+          "descripcion": "El primer check antes de salir de tu casa",
+          "opciones": [
+            "Hay, hay que dar la vuelta por 3 provincias y 2 mundos 🚧",
+            "No hay, hoy es mi día de suerte (que dure hasta las 5pm) 🍀"
+          ]
+        },
+        {
+          "id": "kiosco",
+          "titulo": "¿Chino de confianza o probar otro?",
+          "descripcion": "El kiosquero conoce tu vida más que tu terapeuta",
+          "opciones": [
+            "Mi chino me fía, somos familia elegida ya 🏪",
+            "Pruebo el nuevo, traidor a tu propio barrio y sus tradiciones 🎁"
+          ]
+        },
+        {
+          "id": "colchon",
+          "titulo": "¿Ahorro en banco o bajo colchón?",
+          "descripcion": "El argentino nunca duerme tranquilo, esto es un país",
+          "opciones": [
+            "Colchón, que el banco me roba más que el chorro de la esquina 🛏️",
+            "Banco, que soy optimista/ingenuo/ilusionable 🏦"
+          ]
+        },
+        {
+          "id": "dormir",
+          "titulo": "¿Siesta o arranco la tarde?",
+          "descripcion": "El domingo te tentó con sus encantos perezosos",
+          "opciones": [
+            "Siesta, que sos campeón mundial de dormir y no lo sabías 😴",
+            "Arranco, que sos un workaholic de closet que se hace el productive 💼"
+          ]
+        },
+        {
+          "id": "lluvia",
+          "titulo": "¿Salgo con lluvia o me quedo?",
+          "descripcion": "Tormenta en Buenos Aires y vos con planes",
+          "opciones": [
+            "Salgo, que soy un guerrero del paraguas roto en el viento ☔",
+            "Me quedo, que el agua me da miedo y pereza en igual medida 🌧️"
+          ]
+        },
+        {
+          "id": "peluquero",
+          "titulo": "¿Peluquero de confianza o probar nuevo?",
+          "descripcion": "El dilema capilar que puede arruinarte 3 meses",
+          "opciones": [
+            "El de siempre, que conoce mi cowlick y mis traumas 💈",
+            "El nuevo con onda, apuesta arriesgada del año ✂️"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ocio",
+      "titulo": "🎮 Crisis de Ocio",
+      "color": "neon-purple",
+      "decisiones": [
+        {
+          "id": "netflix",
+          "titulo": "¿Un episodio más o dormir?",
+          "descripcion": "Netflix pregunta \"¿Seguís ahí?\" con tono de juez",
+          "opciones": [
+            "Episodio más, que soy un adicto sin remedio ni voluntad 📺",
+            "Dormir como persona funcional, qué raro vos siendo responsable 😴"
+          ]
+        },
+        {
+          "id": "gamer",
+          "titulo": "¿Gamer mode o productive mode?",
+          "descripcion": "Tus responsabilidades vs. tu ranked que se cae",
+          "opciones": [
+            "Gankear mid, que me hace más feliz que mi trabajo real 🎮",
+            "Terminar el proyecto, que soy un mentiroso compulsivo 💻"
+          ]
+        },
+        {
+          "id": "salir",
+          "titulo": "¿Salir con amigos o quedarme?",
+          "descripcion": "FOMO vs. introvertido feliz en su hábitat natural",
+          "opciones": [
+            "Socializar en el bar, que me obligaron y lo saben todos 🍻",
+            "Modo hermitaño, mi verdadero yo que no juzga ni obliga 🏠"
+          ]
+        },
+        {
+          "id": "futbol",
+          "titulo": "¿Vélez o River?",
+          "descripcion": "El clásico de todos los fines de semana de radio",
+          "opciones": [
+            "Vélez, el fortín, el pueblo, la gloria... (lloro en criollo) 🔵⚪",
+            "River, el más grande y más odiado, soy el villano de la película ⚪🔴⚪"
+          ]
+        },
+        {
+          "id": "boca-river",
+          "titulo": "¿Boca o River en el superclásico?",
+          "descripcion": "Por si te preguntan en la cancha y tenés miedo",
+          "opciones": [
+            "Boca, el más popular, el pueblo, el Diego, la bombonera 💙💛",
+            "River, millonario hasta en la deuda eterna y el dolor ⚪🔴"
+          ]
+        },
+        {
+          "id": "fernet",
+          "titulo": "¿Fernet con Coca o con otro?",
+          "descripcion": "Pregunta trampa, no existe otro y lo sabés",
+          "opciones": [
+            "Coca, tradición argentina sagrada e inquebrantable 🥃",
+            "Con otro, que soy un hereje y me tienen que funar en redes 🚫"
+          ]
+        },
+        {
+          "id": "bar",
+          "titulo": "¿Bar de moda o bar de toda la vida?",
+          "descripcion": "¿Cerveza artesanal a $800 o cerveza común con alma?",
+          "opciones": [
+            "De toda la vida con los pibes, fiel a mis raíces y mi billetera 🍺",
+            "De moda para las fotos insta, que soy superficial y lo asumo 📸"
+          ]
+        },
+        {
+          "id": "previa",
+          "titulo": "¿Previa en lo de quién?",
+          "descripcion": "Antes de salir a bailar decisions que duelen",
+          "opciones": [
+            "En lo del que tiene parlante potente, que vamos a explotar timpanos 🔊",
+            "En lo del que tiene pileta, que somos veraniegos de invierno 🏊"
+          ]
+        },
+        {
+          "id": "boliche",
+          "titulo": "¿Boliche o arrimada?",
+          "descripcion": "Estilo de noche porteña y billetera que llora",
+          "opciones": [
+            "Boliche con entrada de $20mil, que tengo plata para tirar (mentira) 💸",
+            "Arrimada en la plaza con birra, pobre pero feliz y con alma 🍺"
+          ]
+        },
+        {
+          "id": "seleccion",
+          "titulo": "¿Ver el partido de la selección en casa o bar?",
+          "descripcion": "Argentina juega y vos sufrís en cualquier lado",
+          "opciones": [
+            "En casa, que grito solo y nadie me juzga por llorar 📺",
+            "En el bar, que somos todos locos juntos en el caos 🍻"
+          ]
+        },
+        {
+          "id": "birra",
+          "titulo": "¿Cerveza artesanal o tradicional?",
+          "descripcion": "El gusto por la cerveza y el bolsillo",
+          "opciones": [
+            "Artesanal, que soy un hipster de Palermo con billetera inflada 🍺",
+            "Quilmes tradicional, que soy de verdad y de barrio 🇦🇷"
+          ]
+        },
+        {
+          "id": "cine",
+          "titulo": "¿Cine o ver en casa?",
+          "descripcion": "Experiencia vs. comodidad y pijama",
+          "opciones": [
+            "Cine, que pagar $5000 por pochoclo es mi hobby 🎬",
+            "Casa con pirata, que soy práctico y sin escrúpulos 🏴‍☠️"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "argentino",
+      "titulo": "🇦🇷 Modo Argento Puro",
+      "color": "neon-cyan",
+      "decisiones": [
+        {
+          "id": "inflacion",
+          "titulo": "¿Aprovechar cuotas sin interés?",
+          "descripcion": "El argentino siempre hace cuentas y siempre pierde",
+          "opciones": [
+            "Compro todo en cuotas, ganó la lógica peronista milenaria 🧠",
+            "Ahorro en colchón, que soy de la vieja escuela y vieja desconfianza 🛏️"
+          ]
+        },
+        {
+          "id": "crisis",
+          "titulo": "¿Irse del país o quedarse?",
+          "descripcion": "La pregunta del millón de pesos (hoy menos que ayer)",
+          "opciones": [
+            "Ezeiza rumbo a Madrid, que acá no da para más ni en pedo ✈️",
+            "Me quedo y apuesto al país, que soy un iluso con esperanza 🇦🇷"
+          ]
+        },
+        {
+          "id": "dolar",
+          "titulo": "¿A cuánto está el blue ahora?",
+          "descripcion": "El argentino lo sabe instintivamente y sufre",
+          "opciones": [
+            "Más alto que ayer, como siempre, como el dolor de cabeza 📈",
+            "Me hago el distraído, pero me desvela la ansiedad cambiaria 🙈"
+          ]
+        },
+        {
+          "id": "peron",
+          "titulo": "¿Peronismo o no en la cena familiar?",
+          "descripcion": "Evitar el tema o ir al chispazo y divorcio familiar",
+          "opciones": [
+            "Cambio de tema a la selección, que no rompan las bolas en familia ⚽",
+            "Me la juego y tiro datos históricos, que venga la lluvia de facturas 📚"
+          ]
+        },
+        {
+          "id": "impuesto",
+          "titulo": "¿Declarar todo o un poquito?",
+          "descripcion": "La AFIP no lee esto (esperemos todos)",
+          "opciones": [
+            "Todo legal como ciudadano modelo, que soy un boludo confiado 😇",
+            "Un poquito nomás, confío en que no me controlan (risas) 🤞"
+          ]
+        },
+        {
+          "id": "plan",
+          "titulo": "¿Plan social o laburar en negro?",
+          "descripcion": "La encrucijada argentina contemporánea",
+          "opciones": [
+            "Plan y changa, doble ingreso, qué más querés de la vida 💪",
+            "Laburo en blanco como boludo, que soy un idealista con suerte 😅"
+          ]
+        },
+        {
+          "id": "merval",
+          "titulo": "¿Inversiones en Merval o plazo fijo?",
+          "descripcion": "El riesgo argentino en toda su expresión",
+          "opciones": [
+            "Merval, va a subir seguro (narrador: no subió, bajó) 📊",
+            "Plazo fijo tradicional, seguro seguro pero inútil y triste 🔒"
+          ]
+        },
+        {
+          "id": "deuda",
+          "titulo": "¿Pedir préstamo o vender algo?",
+          "descripcion": "Fin de mes decisions que duelen el alma",
+          "opciones": [
+            "Préstamo del banco, confiable como político argentino promedio 🏦",
+            "Vendo la PS5, fue lindo mientras duró y ahora lloro 🎮"
+          ]
+        },
+        {
+          "id": "voto",
+          "titulo": "¿A quién votar en las próximas?",
+          "descripcion": "La gran pregunta sin buena respuesta",
+          "opciones": [
+            "Al menos malo conocido, que de nuevo es lo de siempre y ya sabemos 🗳️",
+            "Al nuevo que promete cambio, que soy optimista/ingenuo/ilusionado 🆕"
+          ]
+        },
+        {
+          "id": "mercado",
+          "titulo": "¿Mercado central o supermercado?",
+          "descripcion": "¿Ahorrar o pagar más por conveniencia y pereza?",
+          "opciones": [
+            "Mercado Central a las 5am, viejita hasta los huesos y el alma 👵",
+            "Día% y listo, mi tiempo vale más que el ahorro de $50 💰"
+          ]
+        },
+        {
+          "id": "cuarentena",
+          "titulo": "¿Si vuelve la cuarentena me quedo o me voy?",
+          "descripcion": "Trauma colectivo argentino resurfacing",
+          "opciones": [
+            "Me quedo, que ya tengo stock de fernet y locura 🍾",
+            "Me voy a Uruguay, que allá no se enteran de nada 🇺🇾"
+          ]
+        },
+        {
+          "id": "saqueo",
+          "titulo": "¿Hay saqueo o es solo rumor?",
+          "descripcion": "El argentino chequea Twitter antes que la prensa",
+          "opciones": [
+            "Hay saqueo, cierro el negocio y me voy a mirar desde el balcón 🔥",
+            "Es rumor, igual me quedo en casa por las dudas y el miedo 🏠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trabajo",
+      "titulo": "💼 Laburo y Obligaciones",
+      "color": "neon-pink",
+      "decisiones": [
+        {
+          "id": "reunion",
+          "titulo": "¿Mentir en la daily o decir la verdad?",
+          "descripcion": "Reunión scrum de stand up comedy",
+          "opciones": [
+            "Miento, que soy un artista del \"avanzando bien\" sin avanzar nada 🎭",
+            "Digo la verdad, que estoy perdido y sin ganas de vivir 📝"
+          ]
+        },
+        {
+          "id": "home",
+          "titulo": "¿Ir a la oficina o home office?",
+          "descripcion": "La batalla del retorno que nadie quiere",
+          "opciones": [
+            "Oficina, que me obligan y tengo que hacer cara de contento 🏢",
+            "Home office, que en pijama rindo más y sufro menos 🏠"
+          ]
+        },
+        {
+          "id": "almuerzo_laburo",
+          "titulo": "¿Traer vianda o comprar?",
+          "descripcion": "Economía vs. pereza, la eterna lucha",
+          "opciones": [
+            "Vianda, que mi vieja me ama y yo ahorro para los dólares 🍱",
+            "Comprar, que soy un vago con tarjeta de crédito y sin remordimiento 🥡"
+          ]
+        },
+        {
+          "id": "trucho",
+          "titulo": "¿Certificado trucho o enfermo de verdad?",
+          "descripcion": "No quiero ir al laburo y debo elegir mi veneno",
+          "opciones": [
+            "Certificado trucho del kiosco de confianza, sistema argentino 💊",
+            "Me enfermo de verdad por el estrés de pensar en ir 🌡️"
+          ]
+        },
+        {
+          "id": "vacaciones",
+          "titulo": "¿Pedir vacaciones o acumular?",
+          "descripcion": "El laburo te consume y vos decidis cuándo parar",
+          "opciones": [
+            "Las pido ya, que estoy a 2 días de prender fuego todo 🔥",
+            "Acumulo, que soy un esclavo del sistema con esperanza 🗓️"
+          ]
+        },
+        {
+          "id": "sueldo",
+          "titulo": "¿Cobrar en pesos o pedir crypto?",
+          "descripcion": "El futuro del trabajo argentino es incierto",
+          "opciones": [
+            "Pesos, que soy un tradicionalista que sufre la inflación 💵",
+            "Crypto, que soy un rebelde tecnológico de Palermo Soho ₿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "familia",
+      "titulo": "👨‍👩‍👧‍👦 Drama Familiar",
+      "color": "neon-purple",
+      "decisiones": [
+        {
+          "id": "casamiento",
+          "titulo": "¿Ir al casamiento del primo o inventar excusa?",
+          "descripcion": "Familia extendida te invita y vos no los conocés",
+          "opciones": [
+            "Voy y regalo $10mil, que se casó el que no veía desde el 2000 💒",
+            "Excusa de viaje de trabajo, mentira legendaria y efectiva ✈️"
+          ]
+        },
+        {
+          "id": "navidad",
+          "titulo": "¿Navidad en lo de quién?",
+          "descripcion": "Divisiones territoriales familiares",
+          "opciones": [
+            "Lo de mamá, que sino se pone triste y nos hace sentir culpables 🎄",
+            "Lo de la suegra, que paga mejor la cena y el aguinaldo 🎅"
+          ]
+        },
+        {
+          "id": "sobrinos",
+          "titulo": "¿Cuidar a los sobrinos o decir que tengo planes?",
+          "descripcion": "Tu hermano necesita salir y vos sos la víctima",
+          "opciones": [
+            "Los cuido, que soy buen tío y me deben favores eternos 👶",
+            "Tengo planes importantes (dormir), que soy sincero y cruel 😴"
+          ]
+        },
+        {
+          "id": "mama",
+          "titulo": "¿Contestar el llamado de mamá o ignorar?",
+          "descripcion": "Te llama por 5ta vez en el día",
+          "opciones": [
+            "Contesto, que sino me busca en la comisaría 👵",
+            "Ignoro, que estoy ocupado haciendo nada importante 📵"
+          ]
+        },
+        {
+          "id": "tios",
+          "titulo": "¿Contestar política con el tío en la cena?",
+          "descripcion": "El tío fanático te provoca y vos tenés hambre",
+          "opciones": [
+            "Me meto, que tengo datos y ganas de pelear 🥊",
+            "Cambio de tema al clima, estrategia de supervivencia 🌤️"
+          ]
+        },
+        {
+          "id": "ex",
+          "titulo": "¿Llamar al ex o borrar el número?",
+          "descripcion": "2AM y vino de más, la receta del desastre",
+          "opciones": [
+            "Llamo, que soy autodestructivo y necesito drama 📞",
+            "Borro el número, que quiero sanar (o esconder la evidencia) 🗑️"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compras",
+      "titulo": "🛒 Shopping Argentino",
+      "color": "neon-cyan",
+      "decisiones": [
+        {
+          "id": "cuotas",
+          "titulo": "¿En cuotas o de contado?",
+          "descripcion": "La matemática argentina del ahorro ilusorio",
+          "opciones": [
+            "En cuotas, que en 12 meses esto vale el triple pero ya lo tengo 💳",
+            "De contado, que soy un ahorrista que no entiende la inflación 💸"
+          ]
+        },
+        {
+          "id": "marca",
+          "titulo": "¿Marca cara o genérica?",
+          "descripcion": "El dilema del supermercado y el ego",
+          "opciones": [
+            "Marca cara, que soy un esnob que paga por envases bonitos 🏷️",
+            "Genérica, que sé que es lo mismo y no me importa el qué dirán 🥫"
+          ]
+        },
+        {
+          "id": "lista",
+          "titulo": "¿Ir con lista o a ojo?",
+          "descripcion": "La planificación vs. el caos comprador",
+          "opciones": [
+            "Con lista, que soy un obseso del orden y gasto menos 📝",
+            "A ojo, que compro con el corazón y la tarjeta sufre 🛒"
+          ]
+        },
+        {
+          "id": "dia",
+          "titulo": "¿Ir día de descuento o cuando puedo?",
+          "descripcion": "Ahorro vs. comodidad en colas eternas",
+          "opciones": [
+            "Día de descuento, que hago cola 2 horas pero ahorro $200 👥",
+            "Cuando puedo, que mi tiempo vale más que esos $200 ⏰"
+          ]
+        }
+      ]
+    }
+  ]
+}
