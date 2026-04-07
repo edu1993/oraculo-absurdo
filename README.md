@@ -75,11 +75,9 @@ oraculo-absurdo/
 
 ## Cómo usar
 
-### Local
-```bash
-python3 server.py
-# Abrir http://localhost:8080
-```
+1. Abrí el archivo `index.html` en tu navegador, o
+2. Usá un servidor local como Live Server de VS Code
+3. Tirá el dado mágico y dejá que el universo decida
 
 ### Compartir en Instagram
 1. Tirá el dado mágico
@@ -94,10 +92,12 @@ python3 server.py
 1. Ir a https://github.com/new
 2. Nombre: `oraculo-absurdo`
 3. Público
-4. Crear repositorio
+4. **IMPORTANTE**: No inicializar con README (va a fallar si existe)
+5. Crear repositorio vacío
 
-### Paso 2: Subir archivos
+### Paso 2: Subir archivos (desde la carpeta del proyecto, no desde la carpeta padre)
 ```bash
+# Asegurate de estar ADENTRO de la carpeta oraculo-absurdo
 cd oraculo-absurdo
 git init
 git add .
@@ -106,6 +106,8 @@ git branch -M main
 git remote add origin https://github.com/TU_USUARIO/oraculo-absurdo.git
 git push -u origin main
 ```
+
+**Si ya creaste el repo desde la carpeta padre por error**, la URL va a ser `https://TU_USUARIO.github.io/oraculo-absurdo/oraculo-absurdo/` (con doble carpeta). Para arreglarlo, mové todo una carpeta arriba o borrá el repo y empezá de nuevo.
 
 ### Paso 3: Activar GitHub Pages
 1. Ir al repositorio en GitHub
